@@ -1,0 +1,130 @@
+    tamanho do fundo:conter;
+    alinhar-itens:centro;
+    alinhamento de texto:centro;
+}
+
+.recipiente{
+    altura: 100VH-V;
+    mostrar:grade;
+    colunas-de-modelo-de-grade: 50% 50%;
+}
+
+.container__botao{
+    cor de fundo: var(--botao-azul);
+    raio da borda: 5px;
+    preenchimento: 1em;
+    cor: var(--branco-principal);
+    mostrar:bloquear;
+    decoração de texto:nenhum;
+    margem inferior: 1em;
+}
+
+.botao_secundario{
+    cor de fundo:transparente;
+    fronteira: 2pxsólidovar(--branco-principal)
+}
+
+.container__aviso{
+    tamanho da fonte: 12px;
+    cor: var(--cinza-secundário);
+}
+
+.container__titulo{
+    tamanho da fonte: 28px;
+    espessura da fonte: 700;
+}
+
+.imagem_do_container{
+    margem: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margem: 0 6em;
+}
+
+.secundario__imagem{
+    largura: 80%;
+}
+
+.secundário{
+    alinhar-itens:centro;
+    margem: 0 10em;
+}
+
+.descrição__titulo{
+    espessura da fonte: 700;
+    tamanho da fonte: 48px;
+    cor: var(--branco-principal);
+    margem inferior: 0,1em;
+}
+
+.descrição__texto{
+    cor: var(--cinza-secundário);
+}
+
+.secundário__botao{
+    mostrar:bloco embutido;
+    margem superior: 1em;
+}
+
+.container__descricao{
+    preenchimento: 2em;
+}
+
+.dispositivos__lista{
+    mostrar:flexível;
+    justificar-conteúdo:centro;
+    tipo-estilo-de-lista:nenhum;
+    margem: 5em 0;
+}
+
+.dispositivo{
+    alinhamento de texto:centro;
+}
+
+.dispositivo__titulo{
+    tamanho da fonte: 48px;
+    cor: var(--branco-principal);
+}
+
+.lista__item{
+    tamanho da fonte: 32px;
+    cor: var(--branco-principal);
+}
+
+.rodape{
+    alinhamento de texto:centro;
+    margem: 5em 3em;
+}
+
+.rodape__lista{
+    mostrar:flexível;
+    justificar-conteúdo:centro;
+    tipo-estilo-de-lista:nenhum;
+    margem superior: 1em;
+}
+
+.lista__link um{
+    decoração de texto:nenhum;
+    cor: var(--branco-principal);
+    margem esquerda: 1em;
+}
+
+.rodape__texto{
+    margem: 1em 0;
+    cor: var(--cinza-secundário);
+    tamanho da fonte: 14px;
+}
+
+.lista__link um:pairar{
+    cor: var(--botao-azul);
+}
+
+.lista__link um:ativo{
+    cor:roxo;
+}
+
+.container__botao:pairar{
+    cor de fundo: var(--botao-azul-efeito);
+    cor: var(--cor-de-fundo);
+}
